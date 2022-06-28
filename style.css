@@ -292,6 +292,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     margin-bottom: 0;
+    padding-right: 100px;
     z-index: 1;
 }
 
@@ -328,7 +329,7 @@ a:hover {
 .nav > li {
     list-style-type: none;
     float: left;
-    margin-top: 4px;
+    margin: 0 10px 0 10px;
     font-size: 16px;
 }
 
@@ -517,6 +518,7 @@ button {
 
 .form-group {
     margin-bottom: 15px;
+    padding-right: 100px;
     display: flex;
     justify-content: space-between;
 }
@@ -670,10 +672,11 @@ h1, h2, h3 {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 100%;
 }
 
 .hero-bloc-text {
+    text-align: center;
     font-size: 38px;
 }
 
@@ -696,6 +699,7 @@ p {
 }
 
 .tight-width-whitespace {
+    text-align: center;
     max-width: 600px;
     margin: auto auto auto auto;
 }
@@ -755,6 +759,7 @@ h4 {
 }
 
 .black {
+    text-align: center;
     color: #000;
 }
 
