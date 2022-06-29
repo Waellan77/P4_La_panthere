@@ -31,7 +31,6 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -289,9 +288,7 @@ a:hover {
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 0;
+    margin: 0;
     padding-right: 100px;
     z-index: 1;
 }
@@ -365,6 +362,11 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+}
+
+.contact {
+    padding: 6px 8px 20px 22px;
+    margin-right: 0;
 }
 
 @media (min-width: 768px) {
@@ -517,9 +519,13 @@ button {
 
 .form-group {
     margin-bottom: 15px;
-    padding-right: 100px;
+
     display: flex;
     justify-content: space-between;
+}
+
+.form-contact {
+    padding: 0px 30px;
 }
 
 .scrollToTop {
@@ -965,6 +971,9 @@ h4 {
         padding: 10px 15px;
         float: none!important;
     }
+    .contact {
+        padding: 0px 0px 0px 40px;
+    }
     .navbar.row {
         display: inline;
         margin-left: 0;
@@ -1073,12 +1082,18 @@ h4 {
     .form-control {
         width: 42%;
     }
+    .form-contact {
+        padding: 0px 0px;
+    }
     .btn-contact {
         float: right;
     }
     .social {
         display: flex;
         justify-content: center;
+    }
+    .col-sm-3 {
+        margin: auto 10px;
     }
     .close-lightbox {
         display: inline-block;
