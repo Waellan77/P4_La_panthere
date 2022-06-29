@@ -367,7 +367,7 @@ a:hover {
     z-index: 2;
 }
 
-@media only screen and (max-width: 768px) {
+@media (min-width: 768px) {
     .site-navigation {
         position: absolute;
         top: 50%;
@@ -512,7 +512,6 @@ button {
 
 .form-control {
     width: 50%;
-    border-color: rgba(0, 0, 0, .5);
     box-shadow: none;
 }
 
@@ -813,6 +812,10 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.btn-contact {
+    float: right;
+}
+
 .ltc-white {
     display: flex;
     justify-content: center;
@@ -937,6 +940,15 @@ h4 {
         padding-left: 10px!important;
         padding-right: 10px!important;
     }
+    p {
+        font-size: 14px;
+    }
+    .hero-bloc-text {
+        font-size: 34px;
+    }
+    h2 {
+        font-size: 18px;
+    }
     .b-parallax {
         background-attachment: scroll;
     }
@@ -945,7 +957,16 @@ h4 {
         border-top: 1px solid rgba(0, 0, 0, .2);
         float: none!important;
     }
+    .navbar .nav .contact {
+        padding-top: 0;
+        border-top: 1px solid rgba(0, 0, 0, .1);
+        border-bottom: 1px solid rgba(0, 0, 0, .1);
+        margin-left: -40px;
+        padding: 10px 15px;
+        float: none!important;
+    }
     .navbar.row {
+        display: inline;
         margin-left: 0;
         margin-right: 0;
     }
@@ -956,7 +977,7 @@ h4 {
         -ms-transform: none;
     }
     .nav > li {
-        margin-top: 0;
+        margin-top: 0;  
         border-bottom: 1px solid rgba(0, 0, 0, .1);
         background: rgba(0, 0, 0, .05);
         text-align: left;
@@ -1043,7 +1064,21 @@ h4 {
         margin-top: 30px;
     }
     form {
-        padding: 5px;
+        padding: 10px;
+    }
+    .form-group {
+        width: 100%;
+        font-size: 14px;
+    }
+    .form-control {
+        width: 42%;
+    }
+    .btn-contact {
+        float: right;
+    }
+    .social {
+        display: flex;
+        justify-content: center;
     }
     .close-lightbox {
         display: inline-block;
