@@ -1016,6 +1016,9 @@ h4 {
     form {
         padding: 5px;
     }
+    .form-control{
+        width: 45%;
+    }
     .close-lightbox {
         display: inline-block;
     }
