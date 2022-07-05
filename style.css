@@ -472,6 +472,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    padding-left: 12px;
 }
 
 .icon-lg {
@@ -515,10 +516,9 @@ button {
 .scrollToTop {
     width: 40px;
     height: 40px;
-    position: fixed;
+    position: absolute;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757;
+    color: #000;
 }
 
 h1, h2, h3 {
@@ -707,6 +707,10 @@ p {
     max-width: 400px;
     margin: auto auto auto auto;
     color: #000;
+}
+
+.social:hover {
+    color: #FFF;
 }
 
 h2 {
