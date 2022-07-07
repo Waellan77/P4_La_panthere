@@ -851,6 +851,9 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .scrollToTop {
+        display: none;
+    }
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -894,6 +897,9 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
+    }
+    .scrollToTop {
+        display: none;
     }
 }
 
@@ -1030,6 +1036,12 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+    .scrollToTop {
+        display: none;
+    }
+    .address {
+        text-align: center;
     }
 }
 
